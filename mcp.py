@@ -34,6 +34,9 @@ def estimate_pi_visual(points):
         pi_estimations.append(estimate_pi)
         no_of_points.append(total_points)
 
+    ep = estimate_pi
+    error = abs(pi - estimate_pi)
+
     plt.figure(figsize=(12,6))
 
     plt.subplot(1,2,1)
@@ -60,6 +63,8 @@ def estimate_pi_visual(points):
     plt.grid()
     plt.tight_layout()
     plt.legend()
+
+    plt.text(points/2.5,3.3,f'Esttimated Pi: {ep:.6f}\nError: {error:.6f}', fontsize=7.2, bbox=dict(facecolor='lightblue',alpha=0.3))
 
     plt.show()
 
