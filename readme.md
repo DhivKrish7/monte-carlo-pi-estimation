@@ -14,6 +14,9 @@ It randomly generates points inside a square with fitted circle and checks how m
 2. Matplotlib
 3. Math
 
+## Useful-Links
+1. https://en.wikipedia.org/wiki/Monte_Carlo_method
+
 Thankyou!
 
 https://www.linkedin.com/in/dhivkrish7/
